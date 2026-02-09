@@ -1,2 +1,2 @@
 # CSES-Probblems
-This repo consists of Codeforces problems.
+This repo consists of CSES problems solved by the repo owner.
