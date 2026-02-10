@@ -33,6 +33,23 @@ int fib(int n) {
     }
 */
 
+/*
+Constant Space and Time Comoplexity
+int fib(int n) {
+        if(n<=1)
+            return n;
+        int c;
+        int a=0;
+        int b=1;
+        for(int i=1;i<n;i++){
+            c=a+b;
+            a=b;
+            b=c;
+        }
+        return c;
+    }
+*/
+
 int main(){
     int n;
     cin>>n; //size of vector
@@ -42,3 +59,4 @@ int main(){
 
 
 }
+
